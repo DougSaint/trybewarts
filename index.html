@@ -4,14 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua&family=Inter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>TrybeWarts</title>
 </head>
 <body>
     <header class ="header">
        <img src="images/trybewarts-header-logo.svg" alt="logo-trybe" class ="trybewarts-header-logo">
+       <h1 id="trybewarts-header-title">Trybewarts</h1>
+       <form class ="trybewarts-login">
+        <input type="email" name="email" id="email" placeholder="Email">
+        <input type="password" name="password" id="password" placeholder="Senha">
+        <button id="button-login">Entrar</button>
+       </form>
     </header>
-    <main class =""></main>
+    <main class ="main">
+        <form action="" id="evaluation-form">
+            <input type="text" placeholder="Nome" id="input-name">
+            <input type="text" placeholder="Sobrenome" id="input-lastname">
+        </form>
+        <img src="images/trybewarts-colored.svg" alt="Logo da Trybewarts" id="trybewarts-forms-logo">
+    </main>
 </body>
 <script src="script.js"></script>
 </html>
