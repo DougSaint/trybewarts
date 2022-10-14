@@ -48,7 +48,6 @@ function showUser(user) {
     i += 1;
   });
 }
-
 function responseForm(e) {
   e.preventDefault();
 
