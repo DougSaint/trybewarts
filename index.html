@@ -38,15 +38,15 @@
             <fieldset class ="family">  
                 <label for="" id="label-family">Qual sua família?</label>
                     <div>
-                        <input type="radio" name="family" id="" value="Frontend">
+                        <input type="radio" name="family" value="Frontend">
                         <label for="Frontend">Frontend</label>
                     </div>
                     <div>
-                        <input type="radio" name="family" id="" value="Backend">
+                        <input type="radio" name="family" value="Backend">
                         <label for="Backend">Backend</label>
                     </div>
                     </div>
-                        <input type="radio" name="family" id="" value="FullStack">
+                        <input type="radio" name="family" value="FullStack">
                         <label for="FullStack">FullStack</label>
                     <div>    
             </fieldset>
@@ -82,35 +82,48 @@
         </section>
         <section class ="nota">
             <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
-            <input type="radio" name="rate" id="rate" value="1">
+            <input type="radio" name="rate" value="1">
             <label for="1">1</label>
-            <input type="radio" name="rate" id="rate" value="2">
+            <input type="radio" name="rate" value="2">
             <label for="2">2</label>
-            <input type="radio" name="rate" id="rate" value="3">
+            <input type="radio" name="rate" value="3">
             <label for="3">3</label>
-            <input type="radio" name="rate" id="rate" value="4">
+            <input type="radio" name="rate" value="4">
             <label for="4">4</label>
-            <input type="radio" name="rate" id="rate" value="5">
+            <input type="radio" name="rate" value="5">
             <label for="5">5</label>
-            <input type="radio" name="rate" id="rate" value="6">
+            <input type="radio" name="rate" value="6">
             <label for="6">6</label>
-            <input type="radio" name="rate" id="rate" value="7">
+            <input type="radio" name="rate" value="7">
             <label for="7">7</label>
-            <input type="radio" name="rate" id="rate" value="8">
+            <input type="radio" name="rate" value="8">
             <label for="8">8</label>
-            <input type="radio" name="rate" id="rate" value="9">
+            <input type="radio" name="rate" value="9">
             <label for="9">9</label>
-            <input type="radio" name="rate" id="rate" value="10">
+            <input type="radio" name="rate" value="10">
             <label for="10">10</label>
         </section>
+        <div class ="comment">
             <label for="textarea" class="textarea">Deixe seu comentário:</label>
-            <textarea name="textarea" id="" cols="50" rows="10" maxlength="500"></textarea>
+            <textarea name="textarea" id="textarea" maxlength="500"></textarea>
+            <span id ="counter">500</span>
+        </div>
         <div class ="termos">
             <input type="checkbox" name="agreement" id="agreement" required>
             <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?</label>
         </div>
             <button type="submit" id="submit-btn" disabled>Enviar</button>
         </form>
+        <div class="form-data" id ="form-data">
+            <p class ="response"></p>
+            <p class ="response"></p>
+            <p class ="response"></p>
+            <p class ="response"></p>
+            <p class ="response"></p>
+            <p class ="response"></p>
+            <p class ="response"></p>
+            <p class ="response"></p>
+        </div>
         <img src="images/trybewarts-colored.svg" alt="Logo da Trybewarts" id="trybewarts-forms-logo">
     </main>
     <footer>

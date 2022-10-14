@@ -103,3 +103,21 @@ fieldset{
 .termos{
     display: flex;
 }
+.comment{
+    position: relative;
+    width:min-content;
+}
+#counter{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+#textarea{
+    width: 600px;
+    height: 40vh;
+
+}
+
+.form-data {
+  display: none;
+}
