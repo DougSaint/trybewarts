@@ -1,4 +1,4 @@
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -41,16 +41,16 @@ fieldset {
 
 .main {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 #evaluation-form {
-  width: 675px;
-  height: fit-content;
   margin: 5vh 0 0 5vh;
   display: flex;
   flex-direction: column;
-
+  width: 675px;
+  height: fit-content;
 }
 
 .align-form {
@@ -135,4 +135,15 @@ fieldset {
 
 .form-data {
   display: none;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+#label-infos {
+  margin-left: 5px;
 }
